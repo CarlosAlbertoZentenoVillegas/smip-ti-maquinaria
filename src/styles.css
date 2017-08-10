@@ -1,1 +1,307 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: Century Gothic !important;
+}
+
+
+
+
+.clsdivHome1{
+    /*background-color: #212121;*/
+    background-color: #ffc107;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    width: 100%;
+    height:110px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    top: -900%;
+
+}
+.clsdivHome2{
+    color: #fff;
+    position: absolute;
+    top: -900%;
+    text-align: center;
+    font-size: 84px;
+    width: 100%;
+    height:110px;
+}
+
+@media (max-width:768px) and (max-height:1024px){
+   
+    .clsdivHome2{
+        color: #fff;
+        position: absolute;
+        top: -900%;
+        text-align: center;
+        font-family: Century Gothic;
+        font-size: 38px;
+        width: 100%;
+        height:110px;
+    }
+    .clsdivMenuHome div{
+    width:130px !important;
+    height:65px !important;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: height .4s;
+    }
+    .clsimgMenuHome{
+    display: block;
+    width:35px !important;
+    height: 35px !important;
+    padding: 10px;
+    margin:2px auto !important;
+    background-color:rgba(255,255,255,.15);
+    border-radius:50%;
+    box-shadow: 0px 0px 0px 20px rgba(255,255,255, 0);
+    transition: box-shadow .6s;
+    }
+    .clspTextoMenuHome{
+    font-size: .6em !important;
+    transition: padding-top .4s;
+    }
+    .clsdivMenuHome div:hover{
+    height:65px !important;   
+    }
+    .clsdivMenuHome div:hover .clspTextoMenuHome{
+    height:5px !important;
+    padding-top: 7px !important;
+    opacity: 1;
+    }
+    .clsdivContenedorContactanos{
+    background-size:100% 100%;
+    width: 100%;
+    height: 500px !important;
+    text-align: left !important;
+    background-color: rgba(0,0,0,0.9);
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding: 20px;
+    }
+    .clsdivContenedorPiePagina{
+    display: block;
+    padding: 10px;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(208,147,26);
+    color: #424242;
+    text-align: center;
+    font-size: 0.75em !important;
+    }
+}
+
+.clshdrMenuHome
+{
+    width: 38%;
+    height: 180px;
+    position: absolute;
+    top: -600%;
+    left: 30%;
+    text-align: center;
+}
+.clsdivMenuHome{
+    margin: 10px auto 20px auto;
+    float: left;
+    position: absolute;
+}
+
+.clsdivMenuHome div{
+    width:130px;
+    height:130px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: height .4s;
+}
+#divOpcion1MenuHome{
+    background-color: rgb(208,147,26, .5);
+    padding: 0px;
+}
+
+#divOpcion2MenuHome{
+    background-color: rgb(22,107,162, .5);
+    padding: 0px;
+}
+#divOpcion3MenuHome{
+    background-color: rgb(208,101,3, .5);
+    padding: 0px;
+}
+#divOpcion4MenuHome{
+    background-color: rgb(27,54,71, .5);
+    padding: 0px;
+}
+
+.clsimgMenuHome{
+    display: block;
+    width:60px;
+    height: 60px;
+    padding: 10px;
+    margin:20px auto;
+    background-color:rgba(255,255,255,.15);
+    border-radius:50%;
+    box-shadow: 0px 0px 0px 20px rgba(255,255,255, 0);
+    transition: box-shadow .6s;
+}
+
+.clspTextoMenuHome{
+    font-size: .8em;
+    transition: padding-top .4s;
+    color: #fff;
+    cursor: pointer;
+}
+
+.clspTextoMenuHome:hover{
+    color: #fff;
+}
+
+.clsdivMenuHome div:hover{
+    height:150px;
+}
+
+.clsdivMenuHome div:hover .clspTextoMenuHome{
+    height:150px;
+    padding-top: 20px;
+    opacity: 1;
+}
+
+.clsdivMenuHome div:hover .clsimgMenuHome{
+    box-shadow: 0px 0px 0px 0px rgba(255,255,255, .6);
+}
+
+.clsdivContenedorGeneralLogin{
+    height: 280px;
+    width: 100%;
+    background-color: rgb(208,147,26);
+    color:rgb(208,147,26);
+    text-align: center !important;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.clsdivContenedorLogin{
+    margin: 20px auto 20px auto !important;
+    height: 240px;
+    background-color:rgba(255,255,255,0.5);
+    width: 20%;
+    border: 1px solid #FFF;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.clsbtnFormularioLogin-Acceso
+{
+    width:100%;
+    color: #fff;
+    height: 40px !important;
+    border: 2px solid #fff !important;
+    background-color: rgb(208,147,26);
+}
+
+.clsbtnFormularioLogin-Acceso:hover
+{
+    color: rgb(208,147,26);
+    height: 40px !important;
+    border: 2px solid rgb(208,147,26) !important;
+    background-color: #fff;
+}
+
+.clsdivFormularioLoginTop-Izquierda h2{
+    font-size: 2em;
+}
+
+.clsdivContenedorGeneralGaleria{
+    height: 760px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    text-align: center !important;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.clsdivContenedorGaleria{
+    margin: 5px auto 5px auto !important;
+    height: 630px;
+    background-color:rgba(255,255,255,0.5);
+    width: 50%;
+    border: 1px solid #FFF;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.clsdivBloqueDescripcionMaquinariaHome{
+    background-color:rgba(0,0,0,0.5);
+}
+
+.clsdivContenedorGeneralNosotros{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(208,147,26);
+    text-align: center !important;
+    padding: 15px;
+}
+
+.clsdivContenedorNosotrosHomeCadaUno{
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.clsimgNostrosCadaUno{
+width:300px !important;
+padding: 10px;
+margin:2px auto !important;
+}
+
+.clsdivContenedorContactanos{
+    background-size:100% 100%;
+    width: 100%;
+    height: 300px;
+    text-align: left !important;
+    background-color: rgba(0,0,0,0.9);
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding: 20px;
+}
+
+.clsdivFormularioContactanosTop-Izquierda h2{
+    font-size: 2em;
+    padding: 10px;
+    Color: rgb(208,147,26);
+}
+
+.clsbtnFormularioContactanos-Acceso
+{
+    width:100%;
+    color: #fff;
+    height: 40px !important;
+    border: 2px solid #fff !important;
+    background-color: #aeea00;
+}
+
+.clsbtnFormularioContactanos-Acceso:hover
+{
+    color: #aeea00;
+    height: 40px !important;
+    border: 2px solid #aeea00 !important;
+    background-color: #fff;
+}
+
+.clsimgContactanosHome{
+display: block;
+width:100% !important;
+height: 100% !important;
+padding: 10px;
+margin:2px auto !important;
+}
+
+.clsdivContenedorPiePagina{
+    display: block;
+    padding: 10px;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(208,147,26);
+    color: #424242;
+    text-align: center;
+    font-size: 1.1em;
+}
