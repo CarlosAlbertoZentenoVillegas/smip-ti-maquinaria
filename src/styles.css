@@ -1,9 +1,6 @@
 *{
-    font-family: Century Gothic !important;
+    font-family: Century Gothic;
 }
-
-
-
 
 .clsdivHome1{
     /*background-color: #212121;*/
@@ -30,7 +27,7 @@
 }
 
 @media (max-width:768px) and (max-height:1024px){
-   
+
     .clsdivHome2{
         color: #fff;
         position: absolute;
@@ -64,7 +61,7 @@
     transition: padding-top .4s;
     }
     .clsdivMenuHome div:hover{
-    height:65px !important;   
+    height:65px !important;
     }
     .clsdivMenuHome div:hover .clspTextoMenuHome{
     height:5px !important;
